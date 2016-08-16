@@ -1,0 +1,487 @@
+.form-section {
+    background: #f4f4f4 none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 2px;
+}
+.ajaxProcess {
+   
+}
+#comment-messages{
+    position: relative;
+}
+#ajaxIco {
+    background: url(images/ajax-loader.gif);
+    display: block;
+    height: 66px;
+    position: absolute;
+    right: 43%;
+    top: 5%;
+    width: 66px;
+    z-index: 10;
+}
+
+#alienspro_commentzila .cz_error {
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#alienspro_commentzila .comment-messages-list {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+#alienspro_commentzila .comment-messages-list.spam .comment-center-content {
+    display:none;
+}
+
+#alienspro_commentzila .is-spam {
+    
+    display: inline-block;
+}
+
+#alienspro_commentzila .comment-messages-list.spam:hover  {
+    display:block;
+}
+ 
+#alienspro_commentzila .country-ico {
+    display: block;
+    float: right;
+}
+
+#alienspro_commentzila .textbox { 
+    border: 1px solid #c4c4c4; 
+    font-size: 13px; 
+    padding: 4px 4px 4px 4px; 
+    border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    box-shadow: 0px 0px 8px #d9d9d9; 
+    -moz-box-shadow: 0px 0px 8px #d9d9d9; 
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9; 
+}
+#alienspro_commentzila #comment-name{
+    height:25px;
+}
+#alienspro_commentzila #comment-msg.textbox{
+    height:200px;
+}
+#alienspro_commentzila .textbox:focus { 
+    outline: none; 
+    border: 1px solid #7bc1f7; 
+    box-shadow: 0px 0px 8px #7bc1f7; 
+    -moz-box-shadow: 0px 0px 8px #7bc1f7; 
+    -webkit-box-shadow: 0px 0px 8px #7bc1f7; 
+} 
+#alienspro_commentzila .empty{
+    outline: none; 
+    border: 1px solid red; 
+    box-shadow: 0px 0px 8px red; 
+    -moz-box-shadow: 0px 0px 8px red; 
+    -webkit-box-shadow: 0px 0px 8px red; 
+}
+#alienspro_commentzila .comment-edit {
+    clear: both;
+    display: block;
+}
+#alienspro_commentzila .comment-messages-body {
+    font-size: 14px;
+}
+#alienspro_commentzila .form-section .row-input label {
+    display: block;
+}
+#alienspro_commentzila .form-section textarea, #alienspro_commentzila{
+	min-width:300px;
+}
+#alienspro_commentzila textarea{
+	height: 150px;
+}
+
+#alienspro_commentzila .form-section::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+#alienspro_commentzila .comment-left-section {
+    float: left;
+	width: 51%;
+}
+#alienspro_commentzila .comment-rigth-section {
+    display: block;
+    float: right;
+    padding-bottom: 10px;
+    width: 45%;
+	text-align: center;
+}
+#alienspro_commentzila .comment-popup-auth{
+	
+}
+
+#alienspro_commentzila .comment-right-section {
+    float: left;
+}
+
+#alienspro_commentzila #comment-auth-msg a {
+    color: red;
+    cursor: pointer;
+}
+#alienspro_commentzila .comment-popup-auth .input-row label {
+    display: block;
+    padding-bottom: 5px;
+}
+#alienspro_commentzila #comment-name {
+    margin-bottom: 5px;
+}
+#alienspro_commentzila #send-comment-parent-submit {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+	cursor: pointer;
+}
+#alienspro_commentzila #send-comment-parent-submit:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+#alienspro_commentzila #send-comment-parent-submit:active {
+	position:relative;
+	top:1px;
+}
+#alienspro_commentzila #send-comment-parent {
+    border-bottom: 1px dashed;
+    color: #7a7a7a;
+    cursor: pointer;
+    font-size: 13px;
+}
+#alienspro_commentzila #comment-msg-parent {
+    width: 300px;
+}
+#alienspro_commentzila #delete-comment {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#fe1a00;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	font-style:normal;
+	height:20px;
+	line-height:15px;
+	margin-left: 20px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	cursor: pointer;
+}
+#alienspro_commentzila #delete-comment:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+}
+#alienspro_commentzila #delete-comment:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+#alienspro_commentzila .add-comment-btn {
+        cursor:pointer;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:150px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+#alienspro_commentzila .add-comment-btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+#alienspro_commentzila .add-comment-btn:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+#alienspro_commentzila .comment-messages-head {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#alienspro_commentzila .comment-date {
+    font-size: 11px;
+    line-height: 14px;
+    color: #000;
+    font-weight:normal;
+}
+
+#alienspro_commentzila .comment-avatar {
+    border: 1px solid;
+    display: block;
+    float: left;
+
+    margin-bottom: 2px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+#alienspro_commentzila .comment-buttons {
+    float: left;
+}
+
+#alienspro_commentzila .comment-like {
+    float: right;
+}
+#alienspro_commentzila #like-down, #alienspro_commentzila #like-up{
+    cursor:pointer;
+    border:none;
+}
+
+.b-page_initial-scroll_yes.b-page_js_inited {
+    overflow-y: auto;
+}
+.b-page_initial-scroll_yes {
+    overflow-y: scroll;
+}
+#alienspro_commentzila #like-down, #alienspro_commentzila #like-up{
+    border:none;
+    width:32px;
+    height:32px;
+}
+#alienspro_commentzila .comment-like>span{
+    color: #707070;
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    top: 4px;
+}
+#alienspro_commentzila .comment-like .like-disabled {
+    cursor: not-allowed !important;
+    opacity: 0.5;
+}
+#alienspro_commentzila #like-down {
+    background: rgba(0, 0, 0, 0) url("images/arrow-down.png") no-repeat scroll center center;
+}
+
+#alienspro_commentzila #like-up{
+    background: rgba(0, 0, 0, 0) url("images/arrow-up.png") no-repeat scroll center center;
+}
+#alienspro_commentzila .comment-edit::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+#alienspro_commentzila .comment-author{
+	color: #666;
+    font-size: 12px;
+    font-weight: bold;
+}
+#alienspro_commentzila .append-form {
+    clear: both;
+    display: block;
+}
+#alienspro_commentzila .append-form label{
+	display: block;
+	padding-bottom: 5px;
+}
+#alienspro_commentzila .comment-header{
+    border-bottom: 3px solid #666;
+    color: #666;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#alienspro_commentzila .hello-msg {
+    font-size: 1.1em;
+    padding-bottom: 10px;
+}
+/*
+	Paginator 3000
+	- idea by ecto (ecto.ru)
+	- coded by karaboz (karaboz.ru)
+
+	HTML example
+	<div class="paginator" id="paginator_example">
+		<table>
+			<tr>
+				<td><span><strong>1</strong></span></td>
+				...
+				<td><span><a href="">3000</a></span></td>
+			</tr>
+			<tr>
+				<td colspan="">
+					<div class="scroll_bar">
+						<div class="scroll_trough"></div>
+						<div class="scroll_thumb">
+							<div class="scroll_knob"></div>
+						</div>
+						<div class="current_page_mark"></div>
+					</div>				
+				</td>
+
+			</tr>
+		</table>
+	</div>
+*/
+.paginator {
+	margin-top:60px;
+	font-size:1em;
+	width:600px;
+}
+.paginator table {
+	border-collapse:collapse;
+	table-layout:fixed;
+	width:100%;
+}
+.paginator table td {
+	padding:0;
+	white-space:nowrap;
+	text-align:center;
+}
+.paginator span {
+	display:block;
+	padding:3px 0;
+	color:#fff;
+}
+.paginator span strong,
+.paginator span a {
+	padding:2px 6px;
+}
+.paginator span strong {
+	background:#ff6c24;
+	font-style:normal;
+	font-weight:normal; 
+}
+.paginator .scroll_bar {
+	width:100%;	height:20px;
+	position:relative;
+	margin-top:10px; 
+}
+.paginator .scroll_trough {
+	width:100%;	height:3px;
+	background:#ccc;
+	overflow:hidden;
+}
+.paginator .scroll_thumb {
+	position:absolute;
+	z-index:2;
+	width:0; height:3px;
+	top:0; left:0;
+	font-size:1px;
+	background:#363636;
+}
+.paginator .scroll_knob {
+	position:absolute;
+	top:-5px; left:50%;
+	margin-left:-10px;
+	width:20px; height:20px;
+	overflow:hidden;
+	background:url(images/slider_knob.gif) no-repeat 50% 50%;
+	cursor:pointer; cursor:hand;
+}
+.paginator .current_page_mark {
+	position:absolute;
+	z-index:1;
+	top:0; left:0;
+	width:0; height:3px;
+	overflow:hidden;
+	background:#ff6c24;
+}
+
+.fullsize .scroll_thumb {
+	display:none;
+}
+
+
+.paginator_pages {
+	width:600px;
+	text-align:right;
+	font-size:0.8em; 
+	color:#808080;
+	margin-top:-10px; 
+}
+
+
