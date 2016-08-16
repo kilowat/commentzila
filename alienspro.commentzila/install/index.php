@@ -3,12 +3,12 @@ IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"].BX_ROOT."/modules/alienspro.comm
 IncludeModuleLangFile(__FILE__);
 
 class alienspro_commentzila extends CModule{
-	public $MODULE_ID = "alienspro.commentzila";
-	public $MODULE_VERSION;
-	public $MODULE_VERSION_DATE;
-	public $MODULE_NAME;
-	public $MODULE_DESCRIPTION;
-	public $MODULE_CSS;
+	var $MODULE_ID = "alienspro.commentzila";
+	var $MODULE_VERSION;
+	var $MODULE_VERSION_DATE;
+	var $MODULE_NAME;
+	var $MODULE_DESCRIPTION;
+	var $MODULE_CSS;
 
 	function alienspro_commentzila(){
     $this->PARTNER_NAME = "ALIENS.PRO"; 
